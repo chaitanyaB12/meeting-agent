@@ -38,26 +38,3 @@ Backend:
 
 ## How To Run
 
-### Backend
-
-```bash
-cd server
-npm install
-nodemon index.js
-
-Create .env:
-OPENAI_API_KEY=your_key_here
-MONGO_URI=your_mongo_uri
-
-Backend runs on:
-http://localhost:8000
-
-Frontend
-cd client
-npm install
-npm run dev
-
-Runs on:
-http://localhost:5173
-
-```
