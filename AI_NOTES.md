@@ -1,31 +1,15 @@
+I used ChatGPT during development for:
 
----
-
-# 📄 AI_NOTES.md
-
-```md
-# AI Notes
-
-I used ChatGPT (OpenAI GPT-4.1) to help:
-
-- Design project structure
-- Write React components
-- Create Express routes
-- Implement MongoDB models
-- Debug React hooks issues
-- Improve UI/UX
-- Add CRUD operations
-- Handle backend status polling
+- React CRUD logic
+- Express routes
+- MongoDB schema
+- UI improvements
+- Deployment guidance
 
 I manually verified:
+- API routes
+- MongoDB persistence
+- Deployment configs
 
-- All CRUD flows
-- Database writes
-- LLM extraction correctness
-- UI state management
-- Error handling
-- ESLint issues
-
-The app uses OpenAI API because it provides reliable structured extraction of action items from free-form text.
-
-Final implementation decisions and debugging were done manually.
+LLM used: OpenAI (gpt-3.5 / gpt-4) via official OpenAI SDK.
+Chosen for reliability and documentation.

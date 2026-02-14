@@ -1,50 +1,41 @@
-# Meeting Action Agent
+# Meeting Action Items Tracker
 
-Mini workspace app to extract meeting action items.
+A mini workspace to extract action items from meeting transcripts.
 
 ## Features
-
 - Paste meeting transcript
-- Automatically extract action items (task, owner, due date when available)
-- Add / Edit / Delete actions
-- Mark actions as done
+- Automatically extract tasks + owners + due dates (if present)
+- Manual CRUD for actions
+- Mark tasks done
 - Last 5 transcript history
-- Backend / Database / LLM status panel
+- Backend / DB / LLM status panel
 
-## Tech Stack
+## Tech
+Frontend: React + Vite  
+Backend: Node + Express  
+DB: MongoDB Atlas  
+LLM: OpenAI  
 
-Frontend:
-- React + Vite
-- TailwindCSS
+## Run locally
 
-Backend:
-- Node.js
-- Express
-- MongoDB Atlas
-- OpenAI API
+### Server
+cd server  
+npm install  
+npm start  
 
-## How to Run Locally
+### Client
+cd client  
+npm install  
+npm run dev  
 
-### Backend
+## What is done
+- Action extraction
+- CRUD
+- Due dates
+- History
+- Status page
+- Hosting
 
-```bash
-cd server
-npm install
-nodemon index.js
-
-Create .env:
-OPENAI_API_KEY=your_key_here
-MONGO_URI=your_mongo_uri
-
-Backend runs on:
-http://localhost:8000
-
-Frontend
-cd client
-npm install
-npm run dev
-
-Runs on:
-http://localhost:5173
-
-```
+## What is not done
+- Auth
+- Pagination
